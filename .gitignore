@@ -52,3 +52,8 @@ Release
 *.orig
 .dirstamp
 .amend
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

@@ -1,0 +1,48 @@
+cxx_binary(
+  name = 'fxload',
+  header_namespace = '',
+  headers = [
+    'ezusb.h',
+  ],
+  srcs = [
+    'ezusb.c',
+    'fxload.c',
+  ],
+  compiler_flags = [
+    '-Wshadow',
+    '-fvisibility=hidden',
+  ],
+  deps = [
+    '//:libusb',
+  ],
+)
+
+cxx_binary(
+  name = 'hotplugtest',
+  srcs = [
+    'hotplugtest.c',
+  ],
+  deps = [
+    '//:libusb',
+  ],
+)
+
+cxx_binary(
+  name = 'testlibusb',
+  srcs = [
+    'testlibusb.c',
+  ],
+  deps = [
+    '//:libusb',
+  ],
+)
+
+cxx_binary(
+  name = 'xusb',
+  srcs = [
+    'xusb.c',
+  ],
+  deps = [
+    '//:libusb',
+  ],
+)
