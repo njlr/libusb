@@ -26,14 +26,14 @@ MACOS_CONFIG_H = """
 #define PACKAGE \\"libusb\\"
 #define PACKAGE_BUGREPORT \\"libusb-devel@lists.sourceforge.net\\"
 #define PACKAGE_NAME \\"libusb\\"
-#define PACKAGE_STRING \\"libusb 1.0.21\\"
+#define PACKAGE_STRING \\"libusb 1.0.20\\"
 #define PACKAGE_TARNAME \\"libusb\\"
 #define PACKAGE_URL \\"http://libusb.info\\"
-#define PACKAGE_VERSION \\"1.0.21\\"
+#define PACKAGE_VERSION \\"1.0.20\\"
 #define POLL_NFDS_TYPE nfds_t
 #define STDC_HEADERS 1
 #define THREADS_POSIX 1
-#define VERSION \\"1.0.21\\"
+#define VERSION \\"1.0.20\\"
 #define _GNU_SOURCE 1
 """
 
